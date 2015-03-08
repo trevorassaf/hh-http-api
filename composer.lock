@@ -1,0 +1,94 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "999089022c1c939cbffb73acf3a04772",
+    "packages": [
+        {
+            "name": "facebook/xhp-lib",
+            "version": "dev-hack",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/xhp-lib.git",
+                "reference": "dd57e38d4a701d5c47eae58d7a952f4bb0fab927"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/dd57e38d4a701d5c47eae58d7a952f4bb0fab927",
+                "reference": "dd57e38d4a701d5c47eae58d7a952f4bb0fab927",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-hack": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Class library for XHP",
+            "homepage": "https://github.com/facebook/xhp-lib",
+            "keywords": [
+                "facebook",
+                "hack",
+                "hhvm",
+                "xhp"
+            ],
+            "time": "2015-03-07 02:12:09"
+        },
+        {
+            "name": "trevorassaf/hh-utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trevorassaf/hh-utils",
+                "reference": "acb8cbc9ea4c74c822d07be5d1f8769263b1543f"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "Builder.hh"
+                ]
+            },
+            "description": "HHVM utility classes",
+            "homepage": "https://github.com/trevorassaf/hh-utils/",
+            "keywords": [
+                "hack",
+                "hhvm",
+                "utility"
+            ],
+            "time": "2015-03-07 08:10:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "facebook/xhp-lib": 20,
+        "trevorassaf/hh-utils": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/trevorassaf/hh-utils"
+    }
+  ],
+  "require": {
+    "facebook/xhp-lib": "hack-dev",
+    "trevorassaf/hh-utils": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
